@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link{
+    color: #213555;
+}
+.navbar-nav .nav-link:hover{
+    color: #4F709C;
+    border-bottom: 2px solid #E5D283;
+}
+.footer-list li{
+    list-style: none;
+}
+.footer-list a{
+    text-decoration: none;
+    color: #eee;
+}
+.footer-list a:hover{
+    color: #eee;
+}
+.footer-social li{
+    list-style: none;
+}
+.footer-social a{
+    text-decoration: none;
+    color: #eee;
+}
+.footer-social img{
+    width: 40px;
+    height: 40px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    margin-left: 10px;
+}
+.footer-social img:hover{
+    transition: 0.8s;
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+.btn-hover:hover{
+    opacity: 0.8;
+    transition: 1s;
+}
+/* course page*/
+.input-group #search {
+    align-items: end;
+    border: 2px solid #E5D283;
+    /* width: 400px; */
+}
+.input-group #search:focus{
+    border: none;
+    box-shadow: 0 0 2px 2px #E5D283;
+}
+#btn-search{
+    background-color: #E5D283;
+    border: none;
+    margin-left: -39px;
+}
+#hover-card{
+    color: #213555;
+}
+#hover-card:hover{
+    transition: 0.5s;
+    color: #006eff;
+    cursor: pointer;
+}
+@media (max-width: 767.98px) {
+    #logoFoot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #quickAcc{
+        display: flex;
+        align-items: center;
+    }
+    #socialFoot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #socialFoot .footer-social a img{
+        width: 30px;
+        height: 30px;
+    }
+    .SocialMediaLink li a img{
+        width: 40px;
+        height: 40px;
+    }
+    .slogan{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    #about{
+        text-align: center;
+    }
+}
+@media (max-width: 991.98px) {
+    #socialFoot .footer-social a img{
+        width: 30px;
+        height: 30px;
+    }
+    #navbarCollapse{
+        width: 10px;
+        background-color: #F0F0F0;
+        border-radius: 10px;
+        box-shadow: 3px 5px 15px #000 ;
+        margin-top: 10px;
+    }
+    #text-info{
+        padding: 20px;
+    }
+}
