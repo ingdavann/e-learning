@@ -39,10 +39,10 @@
     filter: none;
     -webkit-filter: grayscale(0);
 }
-.btn-hover:hover{
+/* .btn-hover:hover{
     opacity: 0.8;
     transition: 1s;
-}
+} */
 /* course page*/
 .input-group #search {
     align-items: end;
@@ -97,6 +97,7 @@
     #about{
         text-align: center;
     }
+
 }
 @media (max-width: 991.98px) {
     #socialFoot .footer-social a img{
@@ -112,5 +113,16 @@
     }
     #text-info{
         padding: 20px;
+    }
+    .btn-hover{
+        width: 20px;
+        height: 20px;
+    }
+    .corseCard{
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 14px !important;
+        padding: 5px;
     }
 }
