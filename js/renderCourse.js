@@ -1,22 +1,22 @@
 'use strict';
 let Courses = [
     {
-        img: "style/img/HTML.jpg",
+        img: "/style/img/HTML.jpg",
         title: "វគ្គសិក្សាមូលដ្ឋានគ្រឹះHTML",
         desc: "មេរៀននេះនិយាយអំពីណែនាំអោយស្គាល់អំពីភាសាHTMLដូចជាការប្រើប្រាស់ភាសានេះក្នុងគោលបំណងបង្កើតWebsite Web Applicationផ្សេងៗ",
     },
     {
-        img: "style/img/C.jpg",
+        img: "/style/img/C.jpg",
         title: "វគ្គសិក្សាមូលដ្ឋានភាសា C Programming Language",
         desc: "មេរៀននេះនិយាយអំពីណែនាំអោយស្គាល់អំពីភាសាC និង Concept មួយចំនួនរបស់ភាសានេះ។"
     },
     {
-        img: "style/img/excel.jpg",
+        img: "/style/img/excel.jpg",
         title: "វគ្គសិក្សាមូលដ្ឋាន Microsoft Excel",
         desc: "មេរៀននេះនិយាយអំពីណែនាំអោយស្គាល់អំពីប្រើប្រាស់កម្មវិធីExcelក្នុងការងារប្រចាំថ្ងៃផ្សេងៗ",
     },
     {
-        img: "style/img/ppt1-Template.jpg",
+        img: "/style/img/ppt1-Template.jpg",
         title: "វគ្គសិក្សាមូលដ្ឋានគ្រឹះMicrosoft PowerPoint",
         desc: "មេរៀននេះនិយាយអំពីណែនាំអោយស្គាល់អំពីប្រើប្រាស់កម្មវិធីPowerPointក្នុងការងារប្រចាំថ្ងៃផ្សេងៗ"
     }
