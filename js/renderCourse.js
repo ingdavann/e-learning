@@ -30,7 +30,7 @@ Courses.forEach((course) => {
             <img src="${course.img}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title oneLine" id="hover-card">${course.title}</h5>
-                <p class="card-text text-truncate">${course.desc}</p>
+                <p class="card-text text-truncate opacity-75">${course.desc}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     
                     <div class="d-flex align-items-center justify-content-between corseCard" style="gap: 10px; font-size: 14px;">

@@ -35,7 +35,7 @@ blogs.forEach((blog) => {
             <img src="${blog.img}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title text-truncate"><a href="${blog.urlBlog}" target="_blank" id="hover-card" style="text-decoration: none;">${blog.title}</a></h5>
-                <p class="card-text text-truncate">${blog.desc}</p>
+                <p class="card-text text-truncate opacity-75">${blog.desc}</p>
                 <div class="d-flex justify-content-between align-items-center">
                     <span><i class="fa-solid fa-tag"></i> អត្ថបទ</span>
                     <span><i class="fa-solid fa-calendar-days"></i> 05-10-2023</span>
